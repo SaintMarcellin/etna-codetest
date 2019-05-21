@@ -3,6 +3,7 @@
 ## Installer le projet
 
 Vérifier que PHP >= 7.1 et Composer sont installés, puis modifier le .env pour pointer sur votre BDD locale.
+
 ```composer install```
 
 ## Comment le projet a été initialisé
