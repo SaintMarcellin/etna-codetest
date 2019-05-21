@@ -10,6 +10,7 @@
 # Cache, session files and logs (Symfony3)
 /var/cache/*
 /var/logs/*
+/var/log/*
 /var/sessions/*
 !var/cache/.gitkeep
 !var/logs/.gitkeep
@@ -34,6 +35,7 @@
 # PHPUnit
 /app/phpunit.xml
 /phpunit.xml
+.phpunit
 
 # Build data
 /build/
@@ -46,3 +48,9 @@
 
 # Embedded web-server pid file
 /.web-server-pid
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/public/bundles/
