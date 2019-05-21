@@ -4,7 +4,11 @@
 
 Vérifier que PHP >= 7.1 et Composer sont installés, puis modifier le .env pour pointer sur votre BDD locale.
 
-```composer install```
+```
+git clone
+composer install
+php bin/console doctrine:schema:update
+```
 
 ## Comment le projet a été initialisé
 
